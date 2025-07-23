@@ -3,7 +3,7 @@ import csv
 from collections import Counter
 
 # List of the main directories to scan
-directories_to_scan = ['fine_train', 'fine_test', 'fine_val']
+directories_to_scan = ['merged_dataset']
 
 # A Counter object to hold the grand total for each product
 grand_total_counts = Counter()
